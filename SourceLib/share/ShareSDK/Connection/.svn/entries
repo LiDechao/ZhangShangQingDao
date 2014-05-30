@@ -1,0 +1,121 @@
+10
+
+dir
+116401
+svn://lidechao@119.254.76.234/mfw/mobile/intern/lidechao/Research/MFWReply/ShareSDK/Connection
+svn://lidechao@119.254.76.234
+
+
+
+2014-05-07T10:46:28.655878Z
+112825
+lidechao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4e06be72-a692-45cb-a526-5b9dcce02fbc
+
+TumblrConnection.framework
+dir
+
+VKontakteConnection.framework
+dir
+
+FacebookConnection.framework
+dir
+
+FlickrConnection.framework
+dir
+
+WeChatConnection.framework
+dir
+
+SinaWeiboConnection.framework
+dir
+
+GooglePlusConnection.framework
+dir
+
+KaiXinConnection.framework
+dir
+
+InstagramConnection.framework
+dir
+
+PocketConnection.framework
+dir
+
+EverNoteConnection.framework
+dir
+
+RenRenConnection.framework
+dir
+
+QZoneConnection.framework
+dir
+
+YiXinConnection.framework
+dir
+
+TwitterConnection.framework
+dir
+
+SohuWeiboConnection.framework
+dir
+
+InstapaperConnection.framework
+dir
+
+DouBanConnection.framework
+dir
+
+InstapaperResource.bundle
+dir
+
+CopyConnection.framework
+dir
+
+PinterestConnection.framework
+dir
+
+DropboxConnection.framework
+dir
+
+SohuConnection.framework
+dir
+
+QQConnection.framework
+dir
+
+MailConnection.framework
+dir
+
+T163WeiboConnection.framework
+dir
+
+TencentWeiboConnection.framework
+dir
+
+YouDaoNoteConnection.framework
+dir
+
+PrintConnection.framework
+dir
+
+LinkedInConnection.framework
+dir
+
+SMSConnection.framework
+dir
+

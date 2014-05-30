@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Copyright 2009-2010 (c) Jeff Brown <spadix@users.sourceforge.net>
+All Rights Reserved
+-->
+<html>
+<head>
+     <meta http-equiv="Content-Type" content="application/vnd.wap.xhtml+xml;charset=utf-8"/>
+<title>Barcode Reader Help</title>
+<style type="text/css">
+html, body { margin: 0; padding: 0; background: black; color: white; font-family: sans-serif; font-size: 16px }
+h1 { margin: .5em 0; text-align: center; font-size: 28px }
+h2 { font-size: 24px }
+hr { margin: 1em 0; height: 0; border: none; border-top: solid 1px #666 }
+.smaller { font-size: 85% }
+p { margin: .5em }
+a { color: #8af }
+p.cen { text-align: center }
+p.title { margin: 1em; clear: both; text-align: center }
+div.col { width: 50% }
+.clear { clear: both }
+.iconlist { position: relative; clear: both; margin: 4px 0; padding: 1px 0 }
+.icon { width: 64px; height: 64px; overflow: hidden; margin: 12px 16px; padding: 0; background: url("zbar-helpicons.png") no-repeat; font: bold 56px "Marker Felt"; text-align: center }
+.sample { display: block; height: 96px; overflow: hidden; margin: 12px auto; padding: 0; background: url("zbar-samples.png") no-repeat; text-align: center}
+.left { float: left }
+.right { float: right }
+.iconlist > p { margin: 10px }
+.iconlist > h2 { margin: 10px }
+</style>
+</head>
+<body>
+<h1 id="title" style="color: #f88">二维码</h1>
+<hr/>
+<p class="title">手机二维码是二维码技术在手机上的应用。二维码是用特定的几何图形按一定规律在平面（二维方向上）分布的黑白相间的矩形方阵记录数据符号信息的新一代条码技术，由一个二维码矩阵图形和一个二维码号，以及下方的说明文字组成，具有信息量大，纠错能力强，识读速度快，全方位识读等特点。将手机需要访问、使用的信息编码到二维码中，利用手机的摄像头识读，这就是手机二维码。手机二维码可以印刷在报纸、杂志、广告、图书、包装以及个人名片等多种载体上，用户通过手机摄像头扫描二维码或输入二维码下面的号码、关键字即可实现快速手机上网，快速便捷地浏览网页、下载图文、音乐、视频、获取优惠券、参与抽奖、了解企业产品信息，而省去了在手机上输入URL的繁琐过程，实现一键上网。同时，还可以方便地用手机识别和存储名片、自动输入短信，获取公共服务（如天气预报），实现电子地图查询定位、手机阅读等多种功能。随着3G的到来，二维码可以为网络浏览、下载、在线视频、网上购物、网上支付等提供方便的入口。</p>
+<script type="text/javascript">
+function onZBarHelp(argv) {
+var title;
+switch(argv.reason) {
+case "INFO": break;
+case "FAIL": title = "No Barcode Detected"; break;
+}
+if(title) document.getElementById('title').textContent = title;
+}
+</script>
+</body>
+</html>
